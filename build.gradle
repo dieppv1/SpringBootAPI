@@ -27,10 +27,6 @@ test {
 }
 
 jar {
-    manifest.attributes(
-            // add an attribute to the generated manifest file:
-            'Main-Class': application.mainClassName
-    )
     manifest.from(
             'MANIFEST.MF'
     )
