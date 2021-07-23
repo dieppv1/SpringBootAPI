@@ -25,9 +25,3 @@ dependencies {
 test {
     useJUnitPlatform()
 }
-
-jar {
-    manifest.from(
-            'MANIFEST.MF'
-    )
-}
